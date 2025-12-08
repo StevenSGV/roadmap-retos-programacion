@@ -42,7 +42,9 @@ public class StevenSGV {
         boolean primerCondicion = true;
         boolean segundaCondicion = false;
 
-        system.out.println("La condición AND es: " + (primerCondicion && segundaCondicion));
+        System.out.println("La condición AND es: " + (primerCondicion && segundaCondicion));
+        System.out.println("La condición OR es: " + (primerCondicion || segundaCondicion));
+        System.out.println("La condición NOT es: " + (!primerCondicion));
 
 
 
